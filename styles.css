@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(135, 206,235);
+}
+p:first-of-type{
+	background-color: black;
+	color: white;
+}
+p:last-of-type{
+	color: red;
+}
+ul>li{
+	background-color: gray;
+	width: 50%;
+	padding: 10px;
+}
+ul>li:nth-of-type(odd){
+	background-color: white;
+}
+ul>li:nth-of-type(3){
+	background-color: pink;
+}
+ul>li:first-of-type{
+	font-size: 22px;
+}
+ul>li:last-of-type{
+	font-size: 22px;
+}
+
